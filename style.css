@@ -55,20 +55,21 @@ figure figcaption p{
     
 }
 
-.materias #titulo{
-    background-color: rgb(126, 125, 125);
-    height:30px;
-}
-
-.materias #titulo h3{
+.materias summary{
+    background-color: rgb(102, 104, 105);
     color:white;
-    padding:5px;
+    padding:10px;
+    height:20px;
+    list-style-type: none;
+    cursor:pointer;
 }
 
-.materias #materiasFront{
+.materias ul li{
     padding-top:8px;
     line-height: 20px;
+    list-style: none;
 }
+
 
 footer{
     background-color: black;
